@@ -3,3 +3,6 @@ temp_answer
 /cpu
 /cpu_answer
 __pycache__/
+
+# Keep the local experiment plan out of version control.
+/[Pp][Ll][Aa][Nn].[Mm][Dd]

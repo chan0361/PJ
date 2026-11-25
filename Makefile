@@ -9,6 +9,7 @@ cpu: cpu.c cpu_common.c cpu_common.h
 
 test: cpu
 	python3 test.py --bin ./cpu
+	python3 test_corner_cases.py --bin ./cpu
 
 clean:
 	rm -f cpu
